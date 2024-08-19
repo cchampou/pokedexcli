@@ -2,7 +2,7 @@ package commands
 
 import "fmt"
 
-func HelpExecutor() error {
+func HelpExecutor(config *Config) error {
 	println("")
 	println("Welcome to the Pokedex!")
 	println("Usage:")

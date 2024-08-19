@@ -2,7 +2,7 @@ package commands
 
 import "os"
 
-func ExitExecutor() error {
+func ExitExecutor(config *Config) error {
 	os.Exit(0)
 	return nil
 }
